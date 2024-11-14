@@ -13,5 +13,5 @@
 	scanf("%f",&c); 
 	d = a * b - c ; 
 	printf("doanh thu cua cong ty A trong ngay la: %.2f\n",d);
-
+	return 0;
  }
