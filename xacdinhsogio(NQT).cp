@@ -6,9 +6,11 @@ int main(){
  	scanf("%d",&gio); 
 	if(gio<18){ 
 	printf("Have a good day!\n"); 
-}	else{ 
+}	
+	else
+{ 
 	printf("have a good night!\n");
-}
+}	return 0 ;
 	}
  	
   	
