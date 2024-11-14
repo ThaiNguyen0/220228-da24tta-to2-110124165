@@ -7,5 +7,6 @@
  	
  	printf("So nguyen: %d\n" , a); 
  	printf("So thuc: %.2f\n " , b); 
- 	printf("Ky tu: '%c'\n", c);
+ 	printf("Ky tu: '%c'\n", c); 
+  return 0 ;  
  }
