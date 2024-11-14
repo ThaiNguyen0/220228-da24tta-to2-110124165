@@ -8,8 +8,9 @@ int main(){
  	scanf("%d",&b); 
  		if (a<b){ 
  		printf("so nho hon la: %d\n",a); 
- 	}else if(b<a){ 
- 	    printf("so nho hon la: %d\n",b);
+ 	}
+else if(b<a){ 
+ 	 printf("so nho hon la: %d\n",b);
  	}
  	
  		
