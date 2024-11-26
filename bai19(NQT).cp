@@ -59,7 +59,7 @@ int main()
 	//Goi ham cau g
 	kq4 = phanLe(A,n);
 	printf("\nSo phan tu le trong mang nay la:%d", kq4);
-	return 0;
+	
 
 	//Goi ham cau h 
 	kq5 = songuyento(A,n); 
