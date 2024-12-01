@@ -23,13 +23,13 @@ int main() {
     int m, n, k, x;
     int A[ROW][COL];
 
-    // Nh?p s? dÚng v‡ s? c?t
+    // Nh?p s? d√≤ng v√† s? c?t
     printf("Nhap so dong (max %d): ", ROW);
     scanf("%d", &m);
     printf("Nhap so cot (max %d): ", COL);
     scanf("%d", &n);
 
-    // Ki?m tra s? dÚng v‡ s? c?t h?p l?
+    // Ki?m tra s? d√≤ng v√† s? c?t h?p l?
     if (m <= 0 || m > ROW || n <= 0 || n > COL) {
         printf("So dong va cot khong hop le, vui long nhap lai!\n");
         return 0;
