@@ -33,12 +33,15 @@ void nhap(CN *a)
 	printf("\nNhap vao ho ten: ");
 	fflush(stdin);
 	gets(a->hoten);
+	
 	//Nhap thanh phan dia chi
 	printf("\nNhap dia chi cua ban: ");
 	gets(a->diachi);
+	
 	//Nhap thanh phan gioi tinh
 	printf("\nHay cho biet gio tinh : ");
 	gets(a->gioitinh);
+	
 	//Nhap thanh phan tuoi
 	printf("\nHay cho biet tuoi: ");
 	scanf("%d",&a->tuoi);
