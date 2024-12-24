@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct {
+typedef struct 
+{
     int tuSo;
     int mauSo;
 } PHAN_SO;
@@ -17,7 +18,8 @@ PHAN_SO timPhanSoNhoNhat(PHAN_SO *ps, int n);
 int demPhanSoNhoNhat(PHAN_SO *ps, int n, PHAN_SO min);
 void sapXepPhanSo(PHAN_SO *ps, int n);
 
-int main() {
+int main() 
+{
     PHAN_SO ps[100], min;
     int n;
 
