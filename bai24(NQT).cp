@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct {
+typedef struct 
+{
     int tuSo;
     int mauSo;
 } PHAN_SO;
