@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int n, i;
     printf("Nhap so phan tu cua mang: ");
     scanf("%d", &n);
