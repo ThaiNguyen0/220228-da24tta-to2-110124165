@@ -16,7 +16,8 @@ PHAN_SO truPhanSo(PHAN_SO ps1, PHAN_SO ps2);
 PHAN_SO nhanPhanSo(PHAN_SO ps1, PHAN_SO ps2);
 PHAN_SO chiaPhanSo(PHAN_SO ps1, PHAN_SO ps2);
 
-int main() {
+int main() 
+{
     PHAN_SO ps1, ps2, result;
 
     printf("Nhap phan so 1:\n");
